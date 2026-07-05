@@ -11,7 +11,7 @@ export default function Depoimentos() {
   const ref = useReveal();
 
   return (
-    <section className="py-16 md:py-32 px-6 md:px-10" style={{ background: "var(--cream-alt)" }}>
+    <section className="py-14 md:py-28 px-6 md:px-10" style={{ background: "var(--cream-alt)" }}>
       <div ref={ref} className="reveal max-w-5xl mx-auto">
         <div className="text-center mb-12">
           <p className="eyebrow mb-4">Feedbacks reais</p>

@@ -1,54 +1,55 @@
-import { useReveal } from "../hooks/useReveal.js";
 import { Scan, Layers, RefreshCw } from "lucide-react";
+import { useReveal, useRevealStagger } from "../hooks/useReveal.js";
 
 const cards = [
   {
     icon: Scan,
     t: "Diagnóstico único",
-    d: "Seu rosto não é comparado a nenhum outro. Cada plano nasce da sua anatomia, das suas proporções e do que você deseja — não de um padrão.",
+    d: "Nenhum rosto é igual ao outro — e nenhum plano deveria ser. Tudo começa com a sua anatomia, suas proporções e o que você deseja mudar.",
   },
   {
     icon: Layers,
     t: "Progressão inteligente",
-    d: "Nada de uma vez só. Os ajustes são feitos em camadas, respeitando o tempo do tecido e garantindo resultado que vive bem no dia a dia.",
+    d: "Os ajustes são feitos em camadas, respeitando o tempo de cada tecido. Nada de uma vez só — o resultado se constrói com naturalidade.",
   },
   {
     icon: RefreshCw,
     t: "Evolução contínua",
-    d: "Seu rosto muda com o tempo — e o protocolo acompanha. O objetivo é manter o equilíbrio ao longo dos anos, não congelar uma expressão.",
+    d: "O protocolo acompanha as mudanças naturais do seu rosto ao longo dos anos. O objetivo é equilíbrio, não congelar uma expressão.",
   },
 ];
 
 export default function Protocolo() {
   const ref = useReveal();
+  const cardsRef = useRevealStagger();
 
   return (
-    <section id="protocolo" className="py-16 md:py-32 px-6 md:px-10" style={{ background: "var(--cream-alt)" }}>
+    <section id="protocolo" className="py-14 md:py-28 px-6 md:px-10" style={{ background: "var(--cream-alt)" }}>
       <div className="max-w-6xl mx-auto">
-        <div ref={ref} className="reveal max-w-2xl mb-16">
-          <p className="eyebrow mb-5">O protocolo</p>
-          <h2 className="font-display text-3xl md:text-[2.5rem] leading-tight tracking-tight" style={{ color: "var(--ink)" }}>
+        <div ref={ref} className="reveal max-w-2xl mb-12">
+          <p className="eyebrow mb-4">O protocolo</p>
+          <h2 className="font-display text-[1.8rem] md:text-[2.4rem] leading-[1.12] tracking-tight" style={{ color: "var(--ink)" }}>
             ESSENZA: o método que respeita quem você já é.
           </h2>
-          <p className="mt-5 text-[16px] leading-[1.7]" style={{ color: "var(--ink-soft)" }}>
-            Não é um procedimento isolado — é uma filosofia de cuidado. Três pilares que guiam cada decisão clínica.
+          <p className="mt-4 text-[15px] leading-[1.7]" style={{ color: "var(--ink-soft)" }}>
+            Três pilares que guiam cada decisão clínica — da primeira consulta ao acompanhamento.
           </p>
         </div>
-        <div className="grid md:grid-cols-3 gap-6">
-          {cards.map((item, i) => {
+        <div ref={cardsRef} className="reveal-stagger grid md:grid-cols-3 gap-5">
+          {cards.map((item) => {
             const Icon = item.icon;
             return (
-              <div key={item.t} className="liquid-card p-9 md:p-10">
+              <div key={item.t} className="liquid-card p-8 md:p-9">
                 <div
-                  className="w-12 h-12 rounded-xl flex items-center justify-center mb-6"
-                  style={{ background: "rgba(185,141,99,0.1)" }}
+                  className="w-11 h-11 rounded-xl flex items-center justify-center mb-5"
+                  style={{ background: "var(--gold-glow)" }}
                 >
-                  <Icon size={22} style={{ color: "var(--gold-deep)" }} />
+                  <Icon size={20} style={{ color: "var(--gold-deep)" }} />
                 </div>
-                <h3 className="font-display text-xl mb-4 tracking-tight" style={{ color: "var(--ink)" }}>
+                <h3 className="font-display text-[1.15rem] mb-3 tracking-tight" style={{ color: "var(--ink)" }}>
                   {item.t}
                 </h3>
-                <p className="text-[15px] leading-[1.8]" style={{ color: "var(--ink-soft)" }}>
+                <p className="text-[14px] leading-[1.75]" style={{ color: "var(--ink-soft)" }}>
                   {item.d}
                 </p>
               </div>

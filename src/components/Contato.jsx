@@ -8,7 +8,7 @@ export default function Contato() {
   const ref = useReveal();
 
   return (
-    <section id="contato" className="py-16 md:py-32 px-6 md:px-10">
+    <section id="contato" className="py-14 md:py-28 px-6 md:px-10">
       <div ref={ref} className="reveal max-w-6xl mx-auto">
         {/* CTA band */}
         <div

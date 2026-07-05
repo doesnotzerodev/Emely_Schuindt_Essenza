@@ -15,7 +15,7 @@ export default function Resultados() {
   const { openForm } = useFormOverlay();
 
   return (
-    <section id="resultados" className="py-16 md:py-32 px-6 md:px-10">
+    <section id="resultados" className="py-14 md:py-28 px-6 md:px-10">
       <div className="max-w-6xl mx-auto">
         <div ref={ref} className="reveal max-w-2xl mb-14">
           <p className="eyebrow mb-5">Resultados reais</p>

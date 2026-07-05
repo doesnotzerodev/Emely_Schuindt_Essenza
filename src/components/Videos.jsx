@@ -260,7 +260,7 @@ export default function Videos() {
 
   return (
     <>
-      <section id="videos" className="py-16 md:py-32 px-6 md:px-10" style={{ background: "var(--cream-alt)" }}>
+      <section id="videos" className="py-14 md:py-28 px-6 md:px-10" style={{ background: "var(--cream-alt)" }}>
         <div className="max-w-6xl mx-auto">
           <div ref={ref} className="reveal max-w-2xl mb-14">
             <p className="eyebrow mb-5">Conteúdo exclusivo</p>

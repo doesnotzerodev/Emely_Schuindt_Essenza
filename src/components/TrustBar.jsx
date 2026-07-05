@@ -11,15 +11,15 @@ export default function TrustBar() {
   const ref = useReveal();
 
   return (
-    <section ref={ref} className="reveal py-10 px-6 md:px-10">
-      <div className="max-w-5xl mx-auto glass rounded-3xl px-8 py-10 md:px-12 md:py-12">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-6 text-center">
+    <section ref={ref} className="reveal py-8 md:py-12 px-6 md:px-10">
+      <div className="max-w-5xl mx-auto glass rounded-3xl px-6 py-8 md:px-10 md:py-10">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-4 text-center">
           {items.map((item) => (
             <div key={item.label}>
-              <p className="font-display text-2xl md:text-3xl tracking-tight" style={{ color: "var(--ink)" }}>
+              <p className="font-display text-[1.5rem] md:text-[2rem] tracking-tight" style={{ color: "var(--ink)" }}>
                 {item.value}
               </p>
-              <p className="text-[13px] mt-1.5" style={{ color: "var(--ink-soft)" }}>
+              <p className="text-[12px] mt-1" style={{ color: "var(--ink-soft)" }}>
                 {item.label}
               </p>
             </div>
