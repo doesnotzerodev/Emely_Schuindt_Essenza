@@ -24,7 +24,7 @@ export default function Protocolo() {
   const cardsRef = useRevealStagger();
 
   return (
-    <section id="protocolo" className="py-14 md:py-28 px-6 md:px-10" style={{ background: "var(--cream-alt)" }}>
+    <section id="protocolo" className="py-14 md:py-20 px-6 md:px-10" style={{ background: "var(--cream-alt)" }}>
       <div className="max-w-6xl mx-auto">
         <div ref={ref} className="reveal max-w-2xl mb-12">
           <p className="eyebrow mb-4">O protocolo</p>

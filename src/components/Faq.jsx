@@ -65,7 +65,7 @@ export default function Faq() {
   const { openForm } = useFormOverlay();
 
   return (
-    <section id="faq" className="py-14 md:py-28 px-6 md:px-10" style={{ background: "var(--cream-alt)" }}>
+    <section id="faq" className="py-14 md:py-20 px-6 md:px-10" style={{ background: "var(--cream-alt)" }}>
       <div ref={ref} className="reveal max-w-3xl mx-auto">
         <div className="text-center mb-12">
           <p className="eyebrow mb-4">Dúvidas frequentes</p>

@@ -12,7 +12,7 @@ export default function ComoFunciona() {
   const stepsRef = useRevealStagger();
 
   return (
-    <section className="py-14 md:py-28 px-6 md:px-10">
+    <section className="py-14 md:py-20 px-6 md:px-10">
       <div className="max-w-6xl mx-auto">
         <div ref={ref} className="reveal max-w-2xl mb-12">
           <p className="eyebrow mb-4">Sua jornada</p>

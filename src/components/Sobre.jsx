@@ -4,7 +4,7 @@ export default function Sobre() {
   const ref = useReveal();
 
   return (
-    <section id="sobre" className="py-14 md:py-28 px-6 md:px-10">
+    <section id="sobre" className="py-14 md:py-20 px-6 md:px-10">
       <div ref={ref} className="reveal max-w-6xl mx-auto grid md:grid-cols-2 gap-12 md:gap-20 items-center">
         <div className="order-2 md:order-1">
           <div className="relative">

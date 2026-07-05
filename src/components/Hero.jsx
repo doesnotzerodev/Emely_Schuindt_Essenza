@@ -5,7 +5,7 @@ export default function Hero() {
   const { openForm } = useFormOverlay();
 
   return (
-    <section id="top" className="pt-28 pb-10 md:pt-36 md:pb-16 px-6 md:px-10">
+    <section id="top" className="pt-28 pb-10 md:pt-32 md:pb-14 px-6 md:px-10">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 md:gap-16 items-center">
         <div className="animate-fade-up">
           <p className="eyebrow mb-4">Protocolo ESSENZA · Harmonização Facial</p>

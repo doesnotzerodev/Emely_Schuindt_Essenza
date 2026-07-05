@@ -6,7 +6,7 @@ export default function InstagramFeed() {
   const ref = useReveal();
 
   return (
-    <section className="py-16 md:py-28 px-6 md:px-10">
+    <section className="py-16 md:py-20 px-6 md:px-10">
       <div ref={ref} className="reveal max-w-5xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
           {/* Text side */}
