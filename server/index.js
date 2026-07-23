@@ -78,8 +78,8 @@ app.post("/api/contact", (req, res) => {
 });
 
 // Serve static assets (images, videos, posters)
-app.use("/assets", express.static(join(ROOT, "assets"), { maxAge: "30d" }));
-app.use("/videos", express.static(join(ROOT, "videos"), { maxAge: "7d" }));
+app.use("/assets", express.static(join(ROOT, "public/assets"), { maxAge: "30d" }));
+app.use("/videos", express.static(join(ROOT, "public/videos"), { maxAge: "7d" }));
 
 // Serve built frontend
 app.use(express.static(join(ROOT, "dist"), { maxAge: "1d" }));
