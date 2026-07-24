@@ -66,7 +66,7 @@ Deploy automático na **Vercel** a cada push na branch `main`.
 ## SEO
 
 - Meta tags, Open Graph e Twitter Card configurados (`index.html`)
-- Dados estruturados JSON-LD (`Physician`) para busca local
+- Dados estruturados JSON-LD (`MedicalBusiness`) para busca local
 - `robots.txt` + `sitemap.xml`
 - Verificação do Google Search Console (meta tag + arquivo HTML)
 

@@ -17,7 +17,7 @@ export default function Educacional() {
             Entenda antes de decidir.
           </h2>
           <p className="mt-4 text-[16px] leading-[1.7]" style={{ color: "var(--ink-soft)" }}>
-            Conteúdo direto da Dra. Emely — o que esperar de cada procedimento.
+            Conteúdo direto da Dra. Emely sobre o que esperar de cada procedimento.
           </p>
         </div>
 

@@ -19,7 +19,7 @@ export default function Depoimentos() {
             Quem viveu, recomenda.
           </h2>
           <p className="mt-4 text-[16px] max-w-lg mx-auto" style={{ color: "var(--ink-soft)" }}>
-            Mensagens reais de pacientes — sem edição, sem roteiro.
+            Mensagens reais de pacientes, sem edição, sem roteiro.
           </p>
         </div>
 

@@ -20,7 +20,7 @@ export default function Contato() {
               Sua transformação começa com uma conversa.
             </h2>
             <p className="text-[16px] leading-[1.75] mb-8" style={{ color: "var(--ink-soft)" }}>
-              A avaliação é gratuita, sem compromisso e 100% personalizada. Você sai com clareza do que pode ser feito — sem pressão.
+              A avaliação é sem compromisso e 100% personalizada. Você sai com clareza do que pode ser feito, sem pressão.
             </p>
             <div className="flex flex-wrap gap-4">
               <button onClick={openForm} className="btn-primary">
@@ -45,13 +45,13 @@ export default function Contato() {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Localização — Dra. Emely Schuindt, Dourados/MS"
+                title="Localização da Dra. Emely Schuindt, Dourados/MS"
               />
             </div>
             <div className="flex items-start gap-3">
               <MapPin size={16} className="shrink-0 mt-1" style={{ color: "var(--gold-deep)" }} />
               <p className="text-[14px] leading-relaxed" style={{ color: "var(--ink-soft)" }}>
-                Av. Pres. Vargas, 1695 — Sala 212, Medical Center · Dourados/MS
+                Av. Pres. Vargas, 1695, Sala 212, Medical Center · Dourados/MS
               </p>
             </div>
           </div>

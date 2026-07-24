@@ -15,7 +15,7 @@ export default function Footer() {
               Dra. Emely Schuindt
             </p>
             <p className="text-[15px] leading-[1.75] max-w-sm" style={{ color: "var(--ink-soft)" }}>
-              Harmonização facial com ciência, proporção e respeito à identidade de cada rosto. Protocolo ESSENZA — Dourados/MS.
+              Harmonização facial com ciência, proporção e respeito à identidade de cada rosto. Protocolo ESSENZA · Dourados/MS.
             </p>
             <div className="flex items-center gap-3 mt-6">
               {[

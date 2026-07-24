@@ -5,12 +5,12 @@ const cards = [
   {
     icon: Scan,
     t: "Diagnóstico único",
-    d: "Nenhum rosto é igual ao outro — e nenhum plano deveria ser. Tudo começa com a sua anatomia, suas proporções e o que você deseja mudar.",
+    d: "Nenhum rosto é igual ao outro, e nenhum plano deveria ser. Tudo começa com a sua anatomia, suas proporções e o que você deseja mudar.",
   },
   {
     icon: Layers,
     t: "Progressão inteligente",
-    d: "Os ajustes são feitos em camadas, respeitando o tempo de cada tecido. Nada de uma vez só — o resultado se constrói com naturalidade.",
+    d: "Os ajustes são feitos em camadas, respeitando o tempo de cada tecido. Nada de uma vez só: o resultado se constrói com naturalidade.",
   },
   {
     icon: RefreshCw,
@@ -32,7 +32,7 @@ export default function Protocolo() {
             ESSENZA: o método que respeita quem você já é.
           </h2>
           <p className="mt-4 text-[15px] leading-[1.7]" style={{ color: "var(--ink-soft)" }}>
-            Três pilares que guiam cada decisão clínica — da primeira consulta ao acompanhamento.
+            Três pilares que guiam cada decisão clínica, da primeira consulta ao acompanhamento.
           </p>
         </div>
         <div ref={cardsRef} className="reveal-stagger grid md:grid-cols-3 gap-5">

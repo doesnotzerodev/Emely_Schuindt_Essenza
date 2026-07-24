@@ -20,7 +20,7 @@ export default function Resultados() {
         <div ref={ref} className="reveal max-w-2xl mb-14">
           <p className="eyebrow mb-5">Resultados reais</p>
           <h2 className="font-display text-3xl md:text-[2.5rem] leading-tight tracking-tight" style={{ color: "var(--ink)" }}>
-            O melhor resultado é aquele que ninguém percebe — só sente.
+            O melhor resultado é aquele que ninguém percebe, só sente.
           </h2>
           <p className="mt-5 text-[16px] leading-[1.7]" style={{ color: "var(--ink-soft)" }}>
             Sem filtros, sem edição. Apenas o antes e depois do Protocolo ESSENZA.
@@ -33,7 +33,7 @@ export default function Resultados() {
               <div className="img-lift">
                 <img
                   src={c.src}
-                  alt={`Resultado — ${c.note}`}
+                  alt={`Resultado: ${c.note}`}
                   className="w-full aspect-[3/4] object-cover"
                   loading="lazy"
                 />

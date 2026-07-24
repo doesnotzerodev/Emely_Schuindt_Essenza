@@ -11,9 +11,9 @@ export const whatsappLink = (message = WHATSAPP_DEFAULT_MESSAGE) =>
   `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
 
 export const NAV_LINKS = [
+  { href: "#resultados", label: "Resultados" },
   { href: "#sobre", label: "Sobre" },
   { href: "#protocolo", label: "Protocolo" },
-  { href: "#resultados", label: "Resultados" },
   { href: "#videos", label: "Conteúdo" },
   { href: "#faq", label: "Dúvidas" },
   { href: "#contato", label: "Contato" },
@@ -22,7 +22,7 @@ export const NAV_LINKS = [
 export const FAQS = [
   {
     q: "O que é harmonização facial?",
-    a: "É um conjunto de técnicas médicas que busca equilibrar as proporções do rosto, respeitando a anatomia e a identidade de cada paciente — sem padronizar resultados.",
+    a: "É um conjunto de técnicas que busca equilibrar as proporções do rosto, respeitando a anatomia e a identidade de cada paciente. Nada de padronizar resultados.",
   },
   {
     q: "O resultado fica natural?",
@@ -38,11 +38,11 @@ export const FAQS = [
   },
   {
     q: "Dói? Qual o tempo de recuperação?",
-    a: "Os procedimentos são feitos com anestesia tópica e o desconforto é mínimo. A maioria das pacientes retorna às atividades normais no mesmo dia — com orientações específicas de cuidado.",
+    a: "Os procedimentos são feitos com anestesia tópica e o desconforto é mínimo. A maioria das pacientes retorna às atividades normais no mesmo dia, com orientações específicas de cuidado.",
   },
   {
     q: "Atende por convênio ou apenas particular?",
-    a: "O atendimento é particular. A avaliação inicial não tem custo e serve para alinhar expectativas, valores e o plano ideal para cada caso.",
+    a: "O atendimento é particular. A avaliação inicial serve para alinhar expectativas, valores e o plano ideal para cada caso.",
   },
 ];
 
@@ -52,34 +52,27 @@ export const VIDEOS = [
     src: "/videos/depoimento-paciente.mp4",
     poster: "/assets/posters/depoimento-paciente.jpg",
     title: "Depoimento de paciente",
-    description: "Muito além dos procedimentos — cada visita é uma experiência.",
-  },
-  {
-    id: "bioestimulador",
-    src: "/videos/bioestimulador-colageno.mp4",
-    poster: "/assets/posters/bioestimulador-colageno.jpg",
-    title: "Bioestimulador de colágeno",
-    description: "Seu rosto dá sinais antes de envelhecer. A prevenção começa aqui.",
+    description: "Muito além dos procedimentos. Cada visita é uma experiência.",
   },
   {
     id: "beleza-coreana",
     src: "/videos/beleza-coreana-episodio-1.mp4",
     poster: "/assets/posters/beleza-coreana-episodio-1.jpg",
-    title: "Beleza Coreana — Ep. 01",
+    title: "Beleza Coreana · Ep. 01",
     description: "Primeiro episódio da série sobre skincare e estética coreana.",
   },
   {
     id: "amwc-dia1",
     src: "/videos/amwc-coreia-dia-1.mp4",
     poster: "/assets/posters/amwc-coreia-dia-1.jpg",
-    title: "AMWC Coreia — Dia 1",
+    title: "AMWC Coreia · Dia 1",
     description: "A estética do futuro é regenerativa, natural e baseada em ciência.",
   },
   {
     id: "amwc-final",
     src: "/videos/amwc-coreia-ultimo-dia.mp4",
     poster: "/assets/posters/amwc-coreia-ultimo-dia.jpg",
-    title: "AMWC Coreia — Último dia",
+    title: "AMWC Coreia · Último dia",
     description: "Conhecimento, troca de experiências e confirmação de propósito.",
   },
 ];

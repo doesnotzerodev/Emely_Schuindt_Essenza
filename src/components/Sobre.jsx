@@ -41,10 +41,10 @@ export default function Sobre() {
           </h2>
           <div className="space-y-4 text-[15px] leading-[1.8]" style={{ color: "var(--ink-soft)" }}>
             <p>
-              Médica especialista em harmonização facial, a Dra. Emely Schuindt desenvolveu o Protocolo ESSENZA a partir de uma obsessão: como devolver equilíbrio ao rosto sem apagar quem a pessoa é?
+              Biomédica especialista em estética facial, a Dra. Emely Schuindt desenvolveu o Protocolo ESSENZA a partir de uma obsessão: como devolver equilíbrio ao rosto sem apagar quem a pessoa é?
             </p>
             <p>
-              Com mais de 5.000 pacientes acompanhadas e presença nos maiores congressos de estética do mundo — incluindo o AMWC na Coreia — ela traz para Dourados o que há de mais atual em medicina regenerativa e harmonização natural.
+              Com mais de 5.000 pacientes acompanhadas e presença nos maiores congressos de estética do mundo, incluindo o AMWC na Coreia, ela traz para Dourados o que há de mais atual em harmonização facial e cuidados regenerativos.
             </p>
             <p>
               Cada procedimento é planejado como quem compõe: com proporção, ritmo e respeito à geometria única do rosto.

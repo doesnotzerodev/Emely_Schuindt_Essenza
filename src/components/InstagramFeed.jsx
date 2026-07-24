@@ -19,7 +19,7 @@ export default function InstagramFeed() {
               Acompanhe no Instagram
             </h2>
             <p className="text-[16px] leading-[1.75] mb-8" style={{ color: "var(--ink-soft)" }}>
-              Resultados reais, bastidores de procedimentos, dicas de cuidado e conteúdo educativo — tudo em primeira mão no perfil da Dra. Emely.
+              Resultados reais, bastidores de procedimentos, dicas de cuidado e conteúdo educativo, tudo em primeira mão no perfil da Dra. Emely.
             </p>
             <a
               href={INSTAGRAM_URL}

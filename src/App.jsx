@@ -32,10 +32,10 @@ export default function App() {
         <Header />
         <Hero />
         <TrustBar />
+        <Resultados />
         <Sobre />
         <Protocolo />
         <ComoFunciona />
-        <Resultados />
         <Educacional />
         <Videos />
         <Depoimentos />

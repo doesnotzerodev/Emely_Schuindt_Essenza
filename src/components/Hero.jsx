@@ -18,7 +18,7 @@ export default function Hero() {
             <span style={{ color: "var(--gold-deep)" }}>Sem exagero, sem cópia.</span>
           </h1>
           <p className="mt-5 text-[15px] md:text-[16px] leading-[1.7] max-w-[400px]" style={{ color: "var(--ink-soft)" }}>
-            Harmonização facial que respeita a identidade do seu rosto. Um protocolo médico pensado para quem busca naturalidade — não tendência.
+            Harmonização facial que respeita a identidade do seu rosto. Um protocolo pensado para quem busca naturalidade, não tendência.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <button onClick={openForm} className="btn-primary">
@@ -51,7 +51,7 @@ export default function Hero() {
           <div className="img-lift">
             <img
               src="/assets/dra-emely-02.jpg"
-              alt="Dra. Emely Schuindt — Harmonização Facial"
+              alt="Dra. Emely Schuindt · Harmonização Facial"
               className="w-full aspect-[3/4] object-cover object-top"
               loading="eager"
             />
